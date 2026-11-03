@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: orders-config
+  namespace: orders
+data:
+  PORT: "3000"
