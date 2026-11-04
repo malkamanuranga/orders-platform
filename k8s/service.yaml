@@ -5,7 +5,7 @@ metadata:
   namespace: orders
 spec:
   selector:
-    app: order-api
+    app: orders-api
   ports:
     - port: 80
       targetPort: 3000
